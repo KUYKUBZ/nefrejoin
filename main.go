@@ -69,16 +69,36 @@ const (
 )
 
 var defaultJEPPackages = []string{
+	"com.roblox.cliena",
 	"com.roblox.clienb",
 	"com.roblox.clienc",
 	"com.roblox.cliend",
 	"com.roblox.cliene",
 	"com.roblox.clienf",
 	"com.roblox.clieng",
+	"com.roblox.clienh",
+	"com.roblox.clieni",
+	"com.roblox.clienj",
+	"com.roblox.clienk",
+	"com.roblox.clienl",
+	"com.roblox.clienm",
+	"com.roblox.clienn",
+	"com.roblox.clieno",
+	"com.roblox.clienp",
+	"com.roblox.clienq",
+	"com.roblox.clienr",
+	"com.roblox.cliens",
+	"com.roblox.client",
+	"com.roblox.clienu",
+	"com.roblox.clienv",
+	"com.roblox.clienw",
+	"com.roblox.clienx",
+	"com.roblox.clieny",
+	"com.roblox.clienz",
 }
 
 var allPackages = append([]string{}, defaultJEPPackages...)
-var clientMode = "jep" // "normal", "jep", "custom"
+var clientMode = "auto" // "normal", "auto", "custom"
 
 // CleanMode defines the depth of pre-launch system optimization.
 type CleanMode int
