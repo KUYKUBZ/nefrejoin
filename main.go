@@ -98,7 +98,7 @@ var defaultJEPPackages = []string{
 }
 
 var allPackages = append([]string{}, defaultJEPPackages...)
-var clientMode = "auto" // "normal", "auto", "custom"
+var clientMode = "jep" // "normal", "jep", "custom"
 
 // CleanMode defines the depth of pre-launch system optimization.
 type CleanMode int
